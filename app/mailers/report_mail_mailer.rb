@@ -6,7 +6,7 @@ class ReportMailMailer < ApplicationMailer
     @report = report
     mail(
       from: "kokugakuin.fatools@gmail.com",
-      to: "W191514@kokugakuin.ac.jp",
+      to: "ecosiryo@kokugakuin.ac.jp",
       subject: "業務報告",
     )
   end
