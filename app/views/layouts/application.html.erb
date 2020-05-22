@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FaToolsApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <h2 class="header_logo">FA-tools</h2>
+      <ul class="header_menus">
+        <% if @current_user %>
+          <li>
+            <%= link_to("ようこそ#{@current_user.name}さん","/set",class: "menu") %>
+          </li>
+          <li>
+            <%= link_to("業務報告","/report",class: "menu") %>
+          </li>
+          <li>
+            <%= link_to("設定","/set",class: "menu") %>
+          </li>
+          <li>
+            <%= link_to("ログアウト","/logout",class: "menu",method: :post) %>
+          </li>
+        <% else %>
+          <li>
+            <%= link_to("新規登録","/new",class: "menu") %>
+          </li>
+          <li>
+            <%= link_to("ログイン","/",class: "menu") %>
+          </li>
+        <% end %>
+      </ul>
+    </header>
+    <% if flash[:notice] %>
+      <div class="flash">
+        <%= flash[:notice] %>
+      </div>
+    <% end %>
+
+    <%= yield %>
+
+    <footer>
+      <h3 class="footer_logo">FA-tools</h3>
+    </footer>
+  </body>
+</html>

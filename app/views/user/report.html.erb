@@ -1,0 +1,22 @@
+<div class="main">
+  <h1 class="report_logo">業務報告</h1>
+  <%= form_tag("/user/send_report") do %>
+  <div class="report-form">
+    <div class="report-form-box">
+      <p>業務名</p>
+      <input type="text" name="job" value="基礎演習◯回目">
+      <p>日付</p>
+      <input type="text" name="day" value= <%= @today %> >
+      <p>時間</p>
+      <input type="text" name="time" value="8:50 ~ 10:20">
+      <p>氏名（フルネーム）</p>
+      <input type="text" name="name" value="<%= @current_user.name %>">
+      <p>クラス担任(敬称略)</p>
+      <input type="text" name="my_class" value="<%= @current_user.my_class %>">
+      <div class="report_button">
+        <input class="btn" type="submit" value="送信">
+      </div>
+    </div>
+  </div>
+  <% end %>
+</div>

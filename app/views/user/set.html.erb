@@ -1,0 +1,20 @@
+<div class="main">
+  <h1>設定</h1>
+  <%= form_tag("/user/re_set") do  %>
+  <div class="new-form">
+    <div class="new-form-box">
+      <p>氏名（フルネーム）</p>
+      <input type="text" name="name" value="<%="#{@current_user.name}"%>">
+      <p>クラス担任（敬称略）</p>
+      <input type="text" name="class" value="<%= "#{@current_user.my_class}" %>">
+      <p>学籍番号</p>
+      <input type="text" name="number" value="<%= "#{@current_user.student_number}" %>">
+      <p>パスワード（変更のない場合は今までのパスワードを入力してください）</p>
+      <input type="text" name="password" value="<%= "#{@current_user.password}" %>">
+      <div class="new_button">
+      <input class="btn" type="submit" value="送信">
+      </div>
+    </div>
+  </div>
+  <% end %>
+</div>

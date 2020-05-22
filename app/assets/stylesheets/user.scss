@@ -1,0 +1,256 @@
+// Place all the styles related to the user controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+header{
+  top: 0px;
+left: 0px;
+width: auto;
+height: 112px;
+background: #2699FB 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.header_logo{
+  top: 24px;
+left: 32px;
+width: 207px;
+height: 67px;
+float: left;
+font: Regular 52px/55px Arial Hebrew;
+letter-spacing: 0px;
+color: #F7ECEC;
+opacity: 1;
+margin-top: 45px;
+margin-left: 32px;
+}
+.header_menus{
+float: right;
+font: Regular 30px/12px Arial;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin-top: 45px;
+}
+.header_menus li{
+  float:left;
+  top: 45px;
+left: 1169px;
+width: auto;
+height: 30px;
+padding: 0 45px;
+list-style: none;
+color: #FFFFFF;
+}
+.menu{
+  text-decoration: none;
+  color: white;
+}
+footer{
+  top: 1010px;
+left: 0px;
+width: 100%;
+height: 70px;
+background: #2699FB 0% 0% no-repeat padding-box;
+}
+.footer_logo{
+  float:left;
+  top: 1031px;
+left: 24px;
+width: 101px;
+height: 49px;
+text-align: left;
+font: W3 25px/12px Hiragino Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+padding-left: 24px;
+}
+
+
+.main{
+width: 1366px;
+height: 898px;
+}
+.main h1{
+text-align: left;
+font: W3 100px/12px Hiragino Sans;
+letter-spacing: 0px;
+color: #2699FB;
+opacity: 0.54;
+font-size: 100px;
+padding-left:96px;
+font-family: Hiragino_Sans;
+font-weight:normal;
+}
+.form{
+  top: 280px;
+left: 160px;
+width: 728px;
+height: 440px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 5px 10px 6px #00000029;
+border: 1px solid #707070;
+opacity: 1;
+margin-left: 160px;
+}
+.form-box{
+padding-top: 65px;
+}
+.form-box p{
+  top: 352px;
+  left: 196px;
+  width: auto;
+  height: 30px;
+  text-align: left;
+  font: W3 30px/12px Hiragino Sans;
+  letter-spacing: 0px;
+  color: #2699FB;
+  opacity: 1;
+  padding-left: 36px;
+}
+.form-box input{
+  top: 400px;
+left: 243px;
+width: 432px;
+height: 46px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #7FC4FD;
+opacity: 1;
+margin-left: 83px;
+}
+.button input{
+  width: 148px;
+height: 48px;
+background: #2699FB 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+margin-left: 523px;
+margin-bottom: 32px;
+margin-top: 71px;
+text-align: center;
+font-family: Arial;
+color: #FFFFFF;
+opacity: 1;
+font-size: 20px;
+}
+
+.report-form{
+  top: 280px;
+left: 160px;
+width: 728px;
+height: 650px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 5px 10px 6px #00000029;
+border: 1px solid #707070;
+opacity: 1;
+margin-left: 160px;
+}
+.report-form-box{
+padding-top: 0px;
+}
+.report-form-box p{
+  top: 352px;
+  left: 196px;
+  width: auto;
+  height: 30px;
+  text-align: left;
+  font: W3 30px/12px Hiragino Sans;
+  letter-spacing: 0px;
+  color: #2699FB;
+  opacity: 1;
+  padding-left: 36px;
+}
+.report-form-box input{
+  top: 400px;
+left: 243px;
+width: 432px;
+height: 46px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #7FC4FD;
+opacity: 1;
+margin-left: 83px;
+}
+
+.report_button input{
+  width: 148px;
+height: 48px;
+background: #2699FB 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+margin-left: 523px;
+margin-bottom: 32px;
+margin-top: 7px;
+text-align: center;
+font-family: Arial;
+color: #FFFFFF;
+opacity: 1;
+font-size: 20px;
+}
+
+.report_logo{
+  margin: 20px;
+}
+
+.new-form{
+  top: 280px;
+left: 160px;
+width: 728px;
+height: 560px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 5px 10px 6px #00000029;
+border: 1px solid #707070;
+opacity: 1;
+margin-left: 160px;
+}
+.new-form-box{
+
+}
+.new-form-box p{
+  top: 352px;
+  left: 196px;
+  width: auto;
+  height: 30px;
+  text-align: left;
+  font: W3 30px/12px Hiragino Sans;
+  letter-spacing: 0px;
+  color: #2699FB;
+  opacity: 1;
+  padding-left: 36px;
+}
+.new-form-box input{
+  top: 400px;
+left: 243px;
+width: 432px;
+height: 46px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #7FC4FD;
+opacity: 1;
+margin-left: 83px;
+}
+
+.new_button input{
+  width: 148px;
+height: 48px;
+background: #2699FB 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+margin-left: 523px;
+margin-bottom: 32px;
+margin-top: 30px;
+text-align: center;
+font-family: Arial;
+color: #FFFFFF;
+opacity: 1;
+font-size: 20px;
+}
+.flash {
+  padding: 10px 0;
+  color: white;
+  background: rgb(251, 170, 88);
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  border-radius: 0 0 2px 2px;
+  font-size: 14px;
+}
